@@ -8,8 +8,8 @@ from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT, BOT_USERNAME
 
 
 ALIVE_PIC = START_PIC
-HOME_TEXT = " **ʜᴇʟʟᴏ sɪʀ [{}](tg://user?id={})** \n\n**ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.** **ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ + ꜱᴘᴀᴍ + ᴠᴄʀᴀɪᴅ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ | ᴘᴏᴡᴇʀᴇᴅ ʙʏ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](t.me/Mr_DiSasTer_XD)**"
-HELP_TEXT = """ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ + ꜱᴘᴀᴍ + ᴠᴄʀᴀɪᴅ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ | ᴘᴏᴡᴇʀᴇᴅ ʙʏ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](t.me/Mr_DiSasTer_XD)
+HOME_TEXT = " **Halo [{}](tg://user?id={})** \n\n**Nama saya 𝙊𝘾𝙄𝙇 𝙈𝙐𝙎𝙔𝙍𝙄𝙆** \n\n**Saya bot streaming telegram dengan beberapa fitur berguna. Platform pendukung seperti Youtube, Spotify, Resso, AppleMusic , Soundcloud dll. Jangan ragu untuk menambahkan saya ke groupmu.**"
+HELP_TEXT = """ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ + ꜱᴘᴀᴍ + ᴠᴄʀᴀɪᴅ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ | ᴘᴏᴡᴇʀᴇᴅ ʙʏ [xta](t.me/xtaaaanjy)
 » **sᴇᴛᴜᴘ ɢᴜɪᴅᴇ** :
 
 \u2022 sᴛᴀʀʀ ᴀ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
@@ -61,7 +61,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("👮 ᴏᴡɴᴇʀ", url="https://t.me/Mr_DiSasTer_XD"),
+                InlineKeyboardButton("👮 ᴏᴡɴᴇʀ", url="https://t.me/xtaaaanjy"),
                 InlineKeyboardButton("🗨️ ᴜꜱᴇʀꜱ", callback_data="users"),
             ],
             [
@@ -91,10 +91,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("📢 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/TechQuard"),
-            ],
-            [
-                InlineKeyboardButton("♨️ sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Sumit9969/NIXA-MUSIC-BOT"),
+                InlineKeyboardButton("📢 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/storyxta"),
             ],
             [
                 InlineKeyboardButton("📄 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
@@ -188,10 +185,7 @@ async def start(client: Client, message: Message):
             ],
             [
                 InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("📢 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/TechQuard"),
-            ],
-            [
-                InlineKeyboardButton("♨️ sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Sumit9969/NIXA-MUSIC-BOT"),
+                InlineKeyboardButton("📢 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/storyxta"),
             ],
             [
                 InlineKeyboardButton("📄 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
@@ -206,7 +200,7 @@ async def help(client: Client, message: Message):
     self.username = get_me.username
     buttons =  [
             [
-                InlineKeyboardButton("👮 ᴏᴡɴᴇʀ", url="https://t.me/Mr_DiSasTer_XD"),
+                InlineKeyboardButton("👮 ᴏᴡɴᴇʀ", url="https://t.me/xtaaaanjy"),
                 InlineKeyboardButton("🗨️ ᴜꜱᴇʀꜱ", callback_data="users"),
             ],
             [
